@@ -1,17 +1,17 @@
 {
   "name": "everforest",
-  "displayName": "Everforest",
+  "displayName": "Everforest - Code/English Toggle",
   "description": "Comfortable & Pleasant Color Scheme for Visual Studio Code",
-  "version": "0.3.0",
-  "publisher": "sainnhe",
+  "version": "0.3.1",
+  "publisher": "aoweeks",
   "author": "sainnhe (https://github.com/sainnhe)",
   "homepage": "https://github.com/sainnhe/everforest-vscode",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sainnhe/everforest-vscode.git"
+    "url": "https://github.com/aoweeks/everforest-vscode.git"
   },
   "bugs": {
-    "url": "https://github.com/sainnhe/everforest-vscode/issues"
+    "url": "https://github.com/aoweeks/everforest-vscode/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -43,14 +43,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Everforest Dark",
+        "label": "Everforest Code",
         "uiTheme": "vs-dark",
-        "path": "./themes/everforest-dark.json"
+        "path": "./themes/everforest-code.json"
       },
       {
-        "label": "Everforest Light",
-        "uiTheme": "vs",
-        "path": "./themes/everforest-light.json"
+        "label": "Everforest English",
+        "uiTheme": "vs-dark",
+        "path": "./themes/everforest-english.json"
       }
     ],
     "configuration": {
@@ -58,7 +58,7 @@
       "properties": {
         "everforest.darkContrast": {
           "type": "string",
-          "default": "medium",
+          "default": "hard",
           "description": "Background contrast for the dark variant.",
           "enum": [
             "soft",
@@ -68,7 +68,7 @@
         },
         "everforest.lightContrast": {
           "type": "string",
-          "default": "medium",
+          "default": "hard",
           "description": "Background contrast for the light variant.",
           "enum": [
             "soft",
@@ -113,9 +113,10 @@
         },
         "everforest.lightCursor": {
           "type": "string",
-          "default": "black",
+          "default": "white",
           "description": "The cursor color in the light variant.",
           "enum": [
+            "white",
             "black",
             "red",
             "orange",
