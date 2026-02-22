@@ -1,8 +1,8 @@
 {
-  "name": "everforest",
+  "name": "everforest-code-english-toggle",
   "displayName": "Everforest - Code/English Toggle",
   "description": "Comfortable & Pleasant Color Scheme for Visual Studio Code",
-  "version": "0.3.1",
+  "version": "0.1.0",
   "publisher": "aoweeks",
   "author": "sainnhe (https://github.com/sainnhe)",
   "homepage": "https://github.com/sainnhe/everforest-vscode",
@@ -56,7 +56,7 @@
     "configuration": {
       "title": "Everforest",
       "properties": {
-        "everforest.darkContrast": {
+        "everforest-code-english-toggle.darkContrast": {
           "type": "string",
           "default": "hard",
           "description": "Background contrast for the dark variant.",
@@ -66,17 +66,7 @@
             "hard"
           ]
         },
-        "everforest.lightContrast": {
-          "type": "string",
-          "default": "hard",
-          "description": "Background contrast for the light variant.",
-          "enum": [
-            "soft",
-            "medium",
-            "hard"
-          ]
-        },
-        "everforest.darkWorkbench": {
+        "everforest-code-english-toggle.darkWorkbench": {
           "type": "string",
           "default": "material",
           "description": "Workbench style for the dark variant.",
@@ -86,17 +76,7 @@
             "high-contrast"
           ]
         },
-        "everforest.lightWorkbench": {
-          "type": "string",
-          "default": "material",
-          "description": "Workbench style for the light variant.",
-          "enum": [
-            "material",
-            "flat",
-            "high-contrast"
-          ]
-        },
-        "everforest.darkCursor": {
+        "everforest-code-english-toggle.darkCursor": {
           "type": "string",
           "default": "white",
           "description": "The cursor color in the dark variant.",
@@ -111,23 +91,7 @@
             "purple"
           ]
         },
-        "everforest.lightCursor": {
-          "type": "string",
-          "default": "white",
-          "description": "The cursor color in the light variant.",
-          "enum": [
-            "white",
-            "black",
-            "red",
-            "orange",
-            "yellow",
-            "green",
-            "aqua",
-            "blue",
-            "purple"
-          ]
-        },
-        "everforest.darkSelection": {
+        "everforest-code-english-toggle.darkSelection": {
           "type": "string",
           "default": "grey",
           "description": "The background color of selected text in the dark variant.",
@@ -142,7 +106,7 @@
             "purple"
           ]
         },
-        "everforest.lightSelection": {
+        "everforest-code-english-toggle.lightSelection": {
           "type": "string",
           "default": "grey",
           "description": "The background color of selected text in the light variant.",
@@ -157,17 +121,17 @@
             "purple"
           ]
         },
-        "everforest.italicKeywords": {
+        "everforest-code-english-toggle.italicKeywords": {
           "type": "boolean",
           "default": false,
           "description": "Italicize keywords or not."
         },
-        "everforest.italicComments": {
+        "everforest-code-english-toggle.italicComments": {
           "type": "boolean",
           "default": true,
           "description": "Italicize comments or not."
         },
-        "everforest.diagnosticTextBackgroundOpacity": {
+        "everforest-code-english-toggle.diagnosticTextBackgroundOpacity": {
           "type": "string",
           "default": "0%",
           "markdownDescription": "The opacity of the background color of [diagnostic text](https://code.visualstudio.com/updates/v1_52#_error-background-colors).",
@@ -179,7 +143,7 @@
             "50%"
           ]
         },
-        "everforest.highContrast": {
+        "everforest-code-english-toggle.highContrast": {
           "type": "boolean",
           "default": false,
           "description": "Whether to add an additional border around items across the UI to increase the contrast."

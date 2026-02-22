@@ -6,6 +6,5 @@ yarn-debug.log*
 yarn-error.log*
 node_modules/
 dist/
-*.vsix
 .flag
 .vscode-test-web
